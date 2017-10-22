@@ -1,3 +1,10 @@
+# shop (PHP & MySQL) based on  yii framework
+
+## if U have any questions , please mail me  1584036947@qq.com
+
+
+## about the Yii 
+ 
 Yii 2 Advanced Project Template
 ===============================
 
@@ -53,4 +60,4 @@ frontend
 vendor/                  contains dependent 3rd-party packages
 environments/            contains environment-based overrides
 ```
-# shop
+
