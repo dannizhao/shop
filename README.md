@@ -1,11 +1,12 @@
-# shop (PHP & MySQL) based on  yii framework
+## shop (PHP & MySQL) based on  yii framework
 
 ## if U have any questions , please mail me  1584036947@qq.com
 
 
 ## about the Yii 
  
-Yii 2 Advanced Project Template
+##Yii 2 Advanced Project Template
+
 ===============================
 
 Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
