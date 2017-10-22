@@ -1,0 +1,455 @@
+.head{
+	background: #f2f2f2 ;
+	color: #999;
+	min-width: 1920px;
+	height: 32px;
+	position: absolute;
+	left: 0;	
+	line-height: 32px;
+}
+.head a{
+	color: #999;
+}
+.head a:hover{
+	color: #e31939;
+}
+.head-left{
+	float: left;
+	margin-right:448px;
+	height: 32px;
+	margin-left:340px;
+}
+.myself{ 
+	cursor: pointer; 
+	float: left; 
+	width: 83px;
+	text-align: right;
+}
+.mybaby{ 
+	cursor: pointer; 
+	float: left; 
+	width: 66px;
+	text-align: right;
+}
+.mysu{ 
+	cursor: pointer; 
+	float: left; 
+	width: 83px;
+	text-align: right;
+}
+.my-info b,.mybaby b,.mysub{
+	background: url(../images/site-bg.png) no-repeat;
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+}
+.myinfo{
+	display: none;
+	float: left;
+	position: absolute;
+	left: 1009px;
+	top: 32px;
+	width: 95px;
+	height: 62px;
+	background: white;
+	text-align: center;
+	line-height: 51px;
+}
+.mycollect{
+	display: none;	
+	position: absolute;
+	left: 1296px;
+	top: 32px;
+	width: 79px;
+	height: 42px;
+	background: white;
+	text-align: center;
+	line-height: 21px;
+	font-size: 12px;
+}
+.support-help{
+	display: none;	
+	position: absolute;
+	left: 1333px;
+	top: 32px;
+	width: 127px;
+	height: 130px;
+	background: white;	
+	line-height: 21px;
+	font-size: 12px;
+	margin-left: 0;
+}
+.myaddress{
+	font-size: 12px;
+	height: 17px;
+}
+.my-guanzhu b{
+	background: url(../images/user_header.png) no-repeat;
+	background-position: -291px -24px;
+	display: inline-block;
+	width: 18px;
+	height: 13px;
+}
+.my-addcart b{
+	background: url(../images/user_header.png) no-repeat;
+	background-position: -292px -2px;
+	display: inline-block;
+	width: 18px;
+	height: 13px;
+}
+.my-guanzhu a,.my-addcart a{
+	color: #e31939;
+	cursor: pointer;
+}
+.my-guanzhu a:hover,.my-addcart a:hover{
+	color: #e31939;
+}
+.phone_info{
+	height: 370px;
+    border: 1px solid #ddd;
+    margin-top: -26px;
+    padding: 20px 40px;
+}
+.text_phone,.text_pwd,.text_pwd1{
+	border: 1px solid #cccccc;
+	width: 300px;
+	height: 34px;
+	margin: 3px 0 10px 0;
+}
+.text_phone{
+	background: url("../images/register.png") center no-repeat;
+	background-position: 3px -44px ;
+}
+.text_pwd,.text_pwd1{
+	background: url("../images/register.png") center no-repeat;
+	background-position: 3px -18px ;
+}
+.pwd{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: gray;
+	line-height: 30px;
+	/* border-bottom: 2px solid red; */
+}
+.style_register a {
+    cursor: pointer;
+    color: red;
+}
+.style_register a:hover {
+    cursor: pointer;
+    color: red;
+}
+.forget-index{
+	height: 500px;
+	border: 1px solid #ddd;
+}
+.forget{
+	margin: 70px  200px 25px;
+	display: inline-block;
+}
+.forget dl{
+	width: 240px;
+	float: left;
+	text-align: center;
+}
+.doing .s-border{
+	position: relative;
+	top: -19px;
+	border-top: 5px solid #7abd54;
+	z-index: -1;
+	border-radius: 5px;
+}
+.done .s-border{
+	position: relative;
+	top: -19px;
+	border-top: 5px solid #caecb6;
+	z-index: -1;
+	border-radius: 5px;
+}
+.nomarl .s-border{
+	position: relative;
+	top: -19px;
+	border-top: 5px solid #ccc;
+	z-index: -1;
+	border-radius: 5px;
+	margin-left: -1px;
+}
+.ok.doing .s-num{	
+	color: white;
+	width: 37px;
+	height: 35px;
+	display: inline-block;
+	background: url("../images/pw_step.png") center no-repeat;
+	background-position: -158px 0 ;
+	line-height: 35px;
+	text-align: center;
+}
+.nomarl.doing .s-num{	
+	color: white;
+	width: 37px;
+	height: 35px;
+	display: inline-block;
+	background: url("../images/pw_step.png") center no-repeat;
+	background-position: -119px 0 ;
+	line-height: 35px;
+	text-align: center;
+}
+.ok .s-num{	
+	color: white;
+	width: 37px;
+	height: 35px;
+	display: inline-block;
+	background: url("../images/pw_step.png") center no-repeat;
+	background-position: -158px 0 ;
+	line-height: 35px;
+	text-align: center;
+}
+.doing .s-num{	
+	color: white;
+	width: 37px;
+	height: 39px;
+	display: inline-block;
+	background: url("../images/pw_step.png") center no-repeat;
+	background-position: -39px 0 ;
+	line-height: 39px;
+	text-align: center;
+}
+.done .s-num{	
+	color: white;
+	width: 37px;
+	height: 40px;
+	display: inline-block;
+	background: url("../images/pw_step.png") center no-repeat;
+	background-position: -78px 0 ;
+	line-height: 40px;
+	text-align: center;
+}
+.nomarl .s-num{
+	color: white;
+	width: 37px;
+	height: 39px;
+	display: inline-block;
+	background: url("../images/pw_step.png") center no-repeat;
+	background-position: 0 0 ;
+	line-height: 39px;
+	text-align: center;
+}
+.doing .s-text{
+	color: #7abd54;
+}
+.done .s-text{
+	color: #caecb6;
+}
+.nomarl .s-text{
+	color: #ccc;
+}
+.forget-info{
+	text-align: center;
+}
+.forget-info hr{
+	width: 78%;
+}
+.user{
+	color: #999;
+	width: 42px;
+	font-size: 14px;
+}
+.sp_img img{
+	width: 150px;
+}
+.text-code{
+	border: 1px solid #cccccc;
+    width: 183px;
+    height: 34px;
+}
+.next{
+	width: 130px;
+    height: 40px;
+    background: red;
+    color: white;
+    letter-spacing: 2px;
+    border: 1px solid red;
+}
+.next-two{
+	width: 130px;
+    height: 40px;
+    background: red;
+    color: white;
+    letter-spacing: 2px;
+    border: 1px solid red;
+}
+.forget-res{
+	color: gray; 
+	font-size: 12px;
+}
+.forget-res a{
+	cursor: pointer;
+	color: red; 
+}
+.forget-res a:hover{
+	color: red; 
+}
+.index_right{
+	position: fixed;
+    z-index: 1998;
+    width: 39px;
+    height: 100%;
+    right: 6px;
+    top: 0;
+    bottom: 0;
+    margin-right: -6px;
+    background: #333333;
+}
+.index_content{
+	width: 1380px;
+	margin-left: 177px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.login-infodex{
+	width: 300px;
+	height: 280px; 
+	position:absolute;
+	left:-300px; 
+	top: 0;
+	background: white; 
+	display: none;
+}
+.login-infodex .text{
+	border: 1px solid #cccccc;
+    width: 170px;
+    height: 27px;
+    margin: 3px 0 10px 0;
+}
+.login-infodex .login-button {
+    width: 195px;
+    height: 35px;
+    background: red;
+    color: white;
+    letter-spacing: 2px;
+    border: 1px solid red;
+}
+.is_registerdex{
+	margin-left: 58px;
+}
+.plogin{
+	color: red;
+	font-size: 16px;
+	border-bottom: 2px solid red;
+	margin-left: 26px;
+}
+.login-tableindex {
+    height: 284px;
+    margin-top: -26px;
+    padding: 34px 27px;
+}
+#login_icode {
+    width: 70px;
+}
+.login-infodex #index-verifycode-image{
+    width: 114px;
+    
+}
+.online_sale,.online_search,.online_attent,.online_collect,.online_top{
+	width: 39px;
+	height: 45px;
+	background: red;
+	text-align: center;
+	margin-top: 30px;
+	color: white;
+	cursor: pointer;
+}
+.right_online{
+	width: 170px;
+	height: 130px;
+	background: white;
+	position: absolute;
+	left: -169px;
+    top: 65px;
+    display: none;
+}
+.guwen{
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px;
+}
+.research,.attent,.collect,.top{
+	width: 39px;
+	height: 55px;
+	color: white;
+	text-align: center;	
+	font-size: 12px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.shopping{
+	width: 39px;
+	height: 91px;
+	color: white;
+	text-align: center;	
+	font-size: 12px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.searchi{
+	width: 30px;
+	height: 28px;
+	background: url(../images/site_bar.png) no-repeat;
+	display: inline-block;
+	background-position: -3px 0;
+}
+.right_search{
+	width: 160px;
+	height: 130px;
+	background: white;
+	display: none;
+	position: absolute;
+	left: -160px;
+    top: 146px;
+    text-align: center;
+    color: #666;
+    line-height: 3px;
+}
+.shopped{
+	width: 30px;
+	height: 28px;
+	background: url(../images/site_bar.png) no-repeat;
+	display: inline-block;
+	background-position: -3px -35px;
+}
+.attented{
+	width: 30px;
+	height: 28px;
+	background: url(../images/site_bar.png) no-repeat;
+	display: inline-block;
+	background-position: -3px -69px;
+}
+.collected{
+	width: 30px;
+	height: 28px;
+	background: url(../images/site_bar.png) no-repeat;
+	display: inline-block;
+	background-position: -3px -105px;
+}
+.topped{
+	width: 30px;
+	height: 28px;
+	background: url(../images/site_bar.png) no-repeat;
+	display: inline-block;
+	background-position: -3px -173px;
+}
+.right_shop{
+	width: 300px;
+	height: 130px;
+	background: white;
+	position: absolute;
+	left: -300px;
+    top: 214px;
+    display: none;
+    padding: 30px 24px;
+    color: #666;
+}

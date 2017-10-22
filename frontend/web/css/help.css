@@ -1,0 +1,34 @@
+.help_kinds{
+	border:1px solid #b9e8f9;
+	width: 208px;
+}
+.question{
+	width: 971px;
+	height: 36px;
+	line-height: 36px;
+	display: inline-block;
+	font-size: 19px;
+	color: #138bc5;
+	background: url(../images/help.png);	
+	background-position: 0 -30px;
+	text-indent: 0.5em;
+	margin-top: 33px;
+	margin-left: 16px;
+}
+.help_info{
+	margin-left: 583px;
+	margin-top: 16px;
+	font-size: 12px;
+	height: 870px;
+}
+.help_info p{
+	margin: 0;
+}
+.help_kinds ul li a b{
+	background: url(../images/help.png) no-repeat;
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: -18px;
+    background-position: -15px -75px;
+}
